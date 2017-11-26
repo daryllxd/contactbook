@@ -1,8 +1,8 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.10.0"
 
-set :application, "my_app_name"
-set :repo_url, "git@github.com:daryllxd:contactbook.git"
+set :application, "contactbook"
+set :repo_url, "git@github.com:daryllxd/contactbook.git"
 
 # Default branch is :master
 set :branch, :master
